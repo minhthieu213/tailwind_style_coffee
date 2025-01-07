@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
+    letterSpacing:{
+      widest: '.25em'
+    },
     extend: {
       keyframes: {
         slideDown: {
