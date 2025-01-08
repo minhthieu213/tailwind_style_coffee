@@ -11,7 +11,7 @@
   </head>
   <body>
     <div id="root">
-      <div class="content-wrapper font-Karla max-w-screen-2xl mx-auto px-8">
+      <div class="content-wrapper font-Karla max-w-screen-2xl mx-auto px-4 md:px-10">
         <header class="p-6 mx-auto relative">
           <nav class="flex flex-row justify-between items-center">
             <div class="logo basis-2/6 text-center text-xl font-semibold cursor-pointer">
@@ -315,12 +315,33 @@
           </div>
           <!--End more-products-->
 
-          <div class="coffee-magazine">
+          <div class="coffee-magazine w-[95%] lg:w-[65%] mx-auto">
             <div class="cf-subheadline">
               <div class="cf-subheadline-deco"></div>
               <div class="cf-subheadline-label">Buy 2 mugs and get a coffee magazine free
               </div>
               <div class="cf-subheadline-deco"></div>
+            </div>
+
+            <div class="flex-col lg:flex lg:flex-row justify-center items-center gap-5">
+              <div class="coffee-magazine_img basis-1/2 md:flex gap-5 justify-center h-full w-full">
+                <div class="coffee-magazine_img_big basis-2/3 h-[280px] md:max-w-[280px] bg-[url('./image/coffee_magazine/img_1.jpg')] bg-cover bg-no-repeat bg-center"></div>
+                <div class="coffee-magazine_img_small basis-1/3 flex flex-row md:flex md:flex-col gap-3 md:gap-5 mt-3 md:mt-0">
+                  <div class="h-[130px] basis-1/2 lg:w-[160px] bg-[url('./image/coffee_magazine/img_2a.jpg')] bg-cover bg-no-repeat bg-center"></div>
+                  <div class="h-[130px] basis-1/2 lg:w-[160px] bg-[url('./image/coffee_magazine/img_2b.jpg')] bg-cover bg-no-repeat bg-center"></div>
+                </div>
+              </div>
+
+              <div class="mt-10 text-center xl:text-left coffee_magazine_post basis-1/2 pl:8 xl:pl-[60px]">
+                <div class="uppercase text-gray-400 font-semibold tracking-widest text-xs">Premium Offer</div>
+                <div class="my-4 text-4xl">Get our Coffee Magazine</div>
+                <div class="mb-4 text-gray-500 pr-7">The most versatile furniture system ever created.
+                    Designed to fit your life.
+                </div>
+                <div class="cf-button-noGroup mx-auto xl:mx-0 bg-black text-white w-1/2">
+                  Start Shopping
+                </div>
+              </div>
             </div>
           </div>
           <!--End coffee-magazine-->
