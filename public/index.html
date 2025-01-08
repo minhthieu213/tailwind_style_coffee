@@ -10,63 +10,62 @@
     <script src="./main.js" type="text/javascript" async></script>
   </head>
   <body>
-    <div id="root">
-      <div class="content-wrapper font-Karla max-w-screen-2xl mx-auto px-4 md:px-10">
-        <header class="p-6 mx-auto relative">
-          <nav class="flex flex-row justify-between items-center">
-            <div class="logo basis-2/6 text-center text-xl font-semibold cursor-pointer">
-              CoffeeStyle.
-            </div>
-            <ul id="cf-menu" class="basis-3/6 hidden lg:flex lg:items-center lg:justify-end lg:gap-8 uppercase text-sm text-gray-500 font-medium">
-              <li class="cf-top-menu-item cf-top-menu-item-active">
-                <a href="#" class="">Home</a>
-              </li>
-              <li class="cf-top-menu-item">
-                <a href="" class="">Products</a>
-              </li>
-              <li class="cf-top-menu-item">
-                <a href="" class="">Blog</a>
-              </li>
-              <li class="cf-top-menu-item">
-                <a href="" class="">About</a>
-              </li>
-              <li class="cf-top-menu-item">
-                <a href="" class="">Contact</a>
-              </li>
-              <li class="cf-top-menu-item">
-                <a href="" class=>Styleguide</a>
-              </li>
-            </ul>
-            <ul class="basis-3/6 lg:basis-1/6 flex justify-end lg:justify-start items-center ml-16 uppercase text-sm text-gray-500 font-medium">
-              <li class="cf-top-menu-item">
-                <a href="" class="flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="cf-icon">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
-                  </svg>
-                  
-                  <span class="mx-1">Cart</span>
-                  <span class="cf-badge-circle bg-gray-500 text-white">0</span>
-                </a>
-              </li>
-            </ul>
+    <div id="root" class="truncate">
+      <div class="content-wrapper cf-no-parallax font-Karla max-w-screen-2xl mx-auto px-4 md:px-10">
+          <header class="p-6 mx-auto relative">
+            <nav class="flex flex-row justify-between items-center">
+              <div class="logo basis-2/6 text-center text-xl font-semibold cursor-pointer">
+                CoffeeStyle.
+              </div>
+              <ul id="cf-menu" class="basis-3/6 hidden lg:flex lg:items-center lg:justify-end lg:gap-8 uppercase text-sm text-gray-500 font-medium">
+                <li class="cf-top-menu-item cf-top-menu-item-active">
+                  <a href="#" class="">Home</a>
+                </li>
+                <li class="cf-top-menu-item">
+                  <a href="" class="">Products</a>
+                </li>
+                <li class="cf-top-menu-item">
+                  <a href="" class="">Blog</a>
+                </li>
+                <li class="cf-top-menu-item">
+                  <a href="" class="">About</a>
+                </li>
+                <li class="cf-top-menu-item">
+                  <a href="" class="">Contact</a>
+                </li>
+                <li class="cf-top-menu-item">
+                  <a href="" class=>Styleguide</a>
+                </li>
+              </ul>
+              <ul class="basis-3/6 lg:basis-1/6 flex justify-end lg:justify-start items-center ml-16 uppercase text-sm text-gray-500 font-medium">
+                <li class="cf-top-menu-item">
+                  <a href="" class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="cf-icon">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                    </svg>
+                    
+                    <span class="mx-1">Cart</span>
+                    <span class="cf-badge-circle bg-gray-500 text-white">0</span>
+                  </a>
+                </li>
+              </ul>
 
-            <div class="basis-1/6 lg:hidden flex items-center px-3 sm:px-8 cursor-pointer">
-              <svg id="cf-toggleTopMenu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="cf-icon">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-              </svg>
-              
-            </div>
-          </nav>
-        </header>
+              <div class="basis-1/6 lg:hidden flex items-center px-3 sm:px-8 cursor-pointer">
+                <svg id="cf-toggleTopMenu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="cf-icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                
+              </div>
+            </nav>
+          </header>
 
-        <main>
           <div class="slider mb-24 h-[530px] bg-[url('./image/slider_bg.jpg')] bg-cover bg-no-repeat bg-bottom">
             <div class="w-full h-full flex justify-center items-center bg-gray-800 bg-opacity-40">
               <div class="mx-16 text-white text-center">
                 <div class="uppercase mb-4">Best Place To Buy Coffee</div>
                 <div class="font-medium text-5xl mb-6">Coffee Mugs</div>
-                <div class="">The most versatile furniture system ever created.
-                   Designed to fit your life, made to move and grow.</div>
+                <div class="whitespace-normal">The most versatile furniture system ever created.
+                    Designed to fit your life, made to move and grow.</div>
                 <div class="flex justify-center mt-8">
                   <div class="uppercase bg-white text-black w-max tracking-widestLg py-5 px-6 text-xs font-semibold cursor-pointer hover:bg-opacity-95 select-none">
                     Explore our products
@@ -78,7 +77,7 @@
           <!--End silder-->
 
           <div class="story w-full h-full flex justify-center items-center">
-            <div class="text-center px-4 sm:16 md:px-32 lg:px-64 xl:px-96">
+            <div class="text-center lg:mx-16 px-4 sm:16 md:px-32 lg:px-64 xl:px-96 whitespace-normal">
               <div class="text-3xl my-6 leading-10">
                 Even the all-powerful Pointing has no control about the blind texts.
               </div>
@@ -315,7 +314,7 @@
           </div>
           <!--End more-products-->
 
-          <div class="coffee-magazine w-[95%] lg:w-[65%] mx-auto">
+          <div class="coffee-magazine w-[95%] lg:w-[65%] mx-auto whitespace-normal">
             <div class="cf-subheadline">
               <div class="cf-subheadline-deco"></div>
               <div class="cf-subheadline-label">Buy 2 mugs and get a coffee magazine free
@@ -323,9 +322,9 @@
               <div class="cf-subheadline-deco"></div>
             </div>
 
-            <div class="flex-col lg:flex lg:flex-row justify-center items-center gap-5">
+            <div class="flex-col lg:flex lg:flex-row justify-center items-center gap-5 whitespace-normal">
               <div class="coffee-magazine_img basis-1/2 md:flex gap-5 justify-center h-full w-full">
-                <div class="coffee-magazine_img_big basis-2/3 h-[280px] md:max-w-[280px] bg-[url('./image/coffee_magazine/img_1.jpg')] bg-cover bg-no-repeat bg-center"></div>
+                <div class="coffee-magazine_img_big basis-2/3 h-[280px] md:w-[280px] bg-[url('./image/coffee_magazine/img_1.jpg')] bg-cover bg-no-repeat bg-center"></div>
                 <div class="coffee-magazine_img_small basis-1/3 flex flex-row md:flex md:flex-col gap-3 md:gap-5 mt-3 md:mt-0">
                   <div class="h-[130px] basis-1/2 lg:w-[160px] bg-[url('./image/coffee_magazine/img_2a.jpg')] bg-cover bg-no-repeat bg-center"></div>
                   <div class="h-[130px] basis-1/2 lg:w-[160px] bg-[url('./image/coffee_magazine/img_2b.jpg')] bg-cover bg-no-repeat bg-center"></div>
@@ -344,27 +343,118 @@
               </div>
             </div>
           </div>
-          <!--End coffee-magazine-->
+        </div>
+        <!--End coffee-magazine-->
 
+        <div class="cf-parallax bg-[url('./image/parallax.jpg')] bg-cover bg-no-repeat bg-center h-[340px] my-24 bg-fixed
+         w-full relative left-0">
+
+        </div>
+        <!--End parallax-->
+        <div class="content-wrapper cf-no-parallax font-Karla max-w-screen-2xl mx-auto px-4 md:px-10">
           <div class="lifestyles-story">
             <div class="cf-subheadline">
               <div class="cf-subheadline-deco"></div>
               <div class="cf-subheadline-label">Behind the mugs, lifestyle stories</div>
               <div class="cf-subheadline-deco"></div>
             </div>
+
+            <div class="w-[95%] lg:w-[65%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mx-auto">
+              <div class="cf-blog-card w-full lg:max-w-[300px]">
+                <div class="h-[300px] relative bg-[url('./image/life_story/life_story1.jpg')] bg-cover bg-no-repeat bg-center">
+                  <a href="#" alt=Coffee"">
+                    <div class="w-full h-full group hover:bg-black hover:bg-opacity-10 hover:transition-all hover:duration-400 flex justify-center items-center relative">
+                      <div class="cf-button absolute">Read The Full Story</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="my-8 whitespace-normal">
+                  <div class="mb-[10px]">
+                    <a class="text-xl hover:text-coffee-400 leading-8" href="#">
+                      Health Check: why do I get a headache when I haven&apos;t had my coffee?
+                    </a>
+                  </div>
+                  <div class="">
+                    <p class="text-base text-gray-400 mb-5">It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    <p class=" text-gray-400 mt-2 uppercase text-xs tracking-widest font-semibold">October 9, 2018</p>
+                  </div>
+                </div>
+              </div>
+              <div class="cf-blog-card w-full lg:max-w-[300px]">
+                <div class="h-[300px] bg-[url('./image/life_story/life_story2.jpg')] bg-cover bg-no-repeat bg-center">
+                  <a href="#" alt=Coffee"">
+                    <div class="w-full h-full group hover:bg-black hover:bg-opacity-10 hover:transition-all hover:duration-400 relative">
+                      <div class="cf-button absolute">Read The Full Story</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="my-8 whitespace-normal">
+                  <div class="mb-[10px]">
+                    <a class="text-xl hover:text-coffee-400 leading-8" href="#">
+                      How long does a cup of coffee keep you awake?
+                    </a>
+                  </div>
+                  <div class="">
+                    <p class="text-base text-gray-400 mb-5">
+                      It is a paradisematic country, in which roasted parts. Vel qui et ad voluptatem.
+                    </p>
+                    <p class=" text-gray-400 mt-2 uppercase text-xs tracking-widest font-semibold">October 9, 2018</p>
+                  </div>
+                </div>
+              </div>
+              <div class="cf-blog-card w-full lg:max-w-[300px]">
+                <div class="h-[300px] bg-[url('./image/life_story/life_story3.jpg')] bg-cover bg-no-repeat bg-center">
+                  <a href="#" alt=Coffee"">
+                    <div class="w-full h-full group hover:bg-black hover:bg-opacity-10 hover:transition-all hover:duration-400 relative">
+                      <div class="cf-button absolute">Read The Full Story</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="my-8 whitespace-normal">
+                  <div class="mb-[10px]">
+                    <a class="text-xl hover:text-coffee-400 leading-8" href="#">
+                      Recent research suggests that heavy coffee drinkers may reap health benefits.
+                    </a>
+                  </div>
+                  <div class="">
+                    <p class="text-base text-gray-400 mb-5">
+                      It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                    </p>
+                    <p class=" text-gray-400 mt-2 uppercase text-xs tracking-widest font-semibold">October 9, 2018</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <!--End lifestyles-story-->
 
-          <div class="subscribe">
-            subscribe
+          <div class="subscribe mt-20">
+            <div class="bg-[#1d1f2e] h-[328px] flex flex-col justify-center items-center gap-8">
+              <div class="flex items-center">
+                <div class="cf-subheadline-deco"></div>
+                <div class="uppercase mx-4 tracking-[2px] text-gray-400 text-xs text-center font-bold">
+                  Sign up and get free coffee bags
+                </div>
+                <div class="cf-subheadline-deco"></div>
+              </div>
+              <div class="text-white text-4xl ">
+                Coffee Updates
+              </div>
+              <div class="flex justify-center items-center gap-3">
+                <div class="basis-2/3">
+                  <input type="form" placeholder="Customer@coffestyle.io" class="bg-[#1d1f2e] placeholder:font-bold placeholder:text-xs placeholder:tracking-widest outline-none hover:border-gray-500 placeholder:uppercase w-[350px] border-2 px-6 py-[12px] border-gray-700">
+                </div>
+                <div class="basis-1/3">
+                  <div class="cf-button-noGroup bg-white">Subcribe</div>
+                </div>
+              </div>
+            </div>
           </div>
-          <!--End subscribe-->
-        </main>
+        </div>
+        <!--End subscribe-->
 
         <footer>footer</footer>
       </div>
-      <!--End content-wrapper-->
-    </div>
     <!--End root-->
   </body>
 </html>

@@ -44,5 +44,7 @@
 }
 
 .cf-button-noGroup {
-  @apply uppercase text-center hover:bg-opacity-90 tracking-widestLg py-5 px-6 text-xs font-semibold cursor-pointer select-none;
+  @apply uppercase text-center hover:bg-opacity-90 tracking-widestLg py-[18px] px-6 text-xs font-semibold cursor-pointer select-none;
 }
+
+
