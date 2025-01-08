@@ -47,4 +47,14 @@
   @apply uppercase text-center hover:bg-opacity-90 tracking-widestLg py-[18px] px-6 text-xs font-semibold cursor-pointer select-none;
 }
 
+.logo {
+  @apply basis-2/6 text-xl font-semibold cursor-pointer;
+}
 
+.name-item-footer {
+  @apply text-xs uppercase font-bold text-gray-500 tracking-widestLg;
+}
+
+.item-footer {
+  @apply mb-[10px] tracking-wide text-gray-400 text-sm font-normal hover:text-coffee-400 cursor-pointer;
+}

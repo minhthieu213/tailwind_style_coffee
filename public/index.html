@@ -14,7 +14,7 @@
       <div class="content-wrapper cf-no-parallax font-Karla max-w-screen-2xl mx-auto px-4 md:px-10">
           <header class="p-6 mx-auto relative">
             <nav class="flex flex-row justify-between items-center">
-              <div class="logo basis-2/6 text-center text-xl font-semibold cursor-pointer">
+              <div class="logo text-center">
                 CoffeeStyle.
               </div>
               <ul id="cf-menu" class="basis-3/6 hidden lg:flex lg:items-center lg:justify-end lg:gap-8 uppercase text-sm text-gray-500 font-medium">
@@ -76,20 +76,25 @@
           </div>
           <!--End silder-->
 
-          <div class="story w-full h-full flex justify-center items-center">
-            <div class="text-center lg:mx-16 px-4 sm:16 md:px-32 lg:px-64 xl:px-96 whitespace-normal">
-              <div class="text-3xl my-6 leading-10">
-                Even the all-powerful Pointing has no control about the blind texts.
+          <div class="story w-full h-full">
+            <div class=" flex flex-col md:flex md:flex-row justify-center items-center whitespace-normal gap-8 md:px-16 lg:px-64">
+              <div class="basis-1/2">
+                <video src="./video/video_slider.mp4" autoplay loop muted class="object-cover md:min-h-[350px]"></video>
               </div>
-              <p class="text-gray-500 text-center text-base leading-7 mb-6">
-                It is a paradisematic country, in which roasted parts of sentences fly into your mouth. 
-                <br>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem 
-                <br>Ipsum decided to leave for the far World of Grammar.
-              </p>
-              <div class="">
-                <a href="" class="text-coffee-400 hover:text-coffee-600 py-0.5 relative after:absolute after:-bottom-1 after:left-0 after:bg-coffee-50 hover:after:bg-coffee-200 after:h-0.5 after:w-full after:transition-all after:duration-400">
-                  Read the full Story
-                </a>
+              <div class="basis-1/2">
+                <div class="text-3xl my-6 leading-10">
+                  Where Does the Term “Specialty Coffee” Come From?
+                </div>
+                <p class="text-gray-500 text-base leading-7 mb-6">
+                  This Norwegian pioneer is considered the undisputed “godmother of specialty coffee.” 
+                  Interestingly, she started out as the secretary at a U.S. coffee importer. 
+                  Countless lots of green coffee went through her hands and she quickly learned to distinguish excellent beans from the mass-produced stuff.
+                </p>
+                <div class="text-center">
+                  <a href="" class="text-coffee-400 hover:text-coffee-600 py-0.5 relative after:absolute after:-bottom-1 after:left-0 after:bg-coffee-50 hover:after:bg-coffee-200 after:h-0.5 after:w-full after:transition-all after:duration-400">
+                    Read the full Story
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -430,7 +435,7 @@
 
           <div class="subscribe mt-20">
             <div class="bg-[#1d1f2e] h-[328px] flex flex-col justify-center items-center gap-8">
-              <div class="flex items-center">
+              <div class="flex justify-center items-center whitespace-normal w-[240px] md:w-full">
                 <div class="cf-subheadline-deco"></div>
                 <div class="uppercase mx-4 tracking-[2px] text-gray-400 text-xs text-center font-bold">
                   Sign up and get free coffee bags
@@ -440,11 +445,11 @@
               <div class="text-white text-4xl ">
                 Coffee Updates
               </div>
-              <div class="flex justify-center items-center gap-3">
+              <div class="grid-cols-1 md:flex md:flex-row justify-center items-center md:gap-3">
                 <div class="basis-2/3">
-                  <input type="form" placeholder="Customer@coffestyle.io" class="bg-[#1d1f2e] placeholder:font-bold placeholder:text-xs placeholder:tracking-widest outline-none hover:border-gray-500 placeholder:uppercase w-[350px] border-2 px-6 py-[12px] border-gray-700">
+                  <input type="text" placeholder="Customer@coffestyle.io" class="bg-[#1d1f2e] w-[240px] md:w-[350px] placeholder:font-bold placeholder:text-xs placeholder:tracking-widest outline-none hover:border-gray-500 placeholder:uppercase border-2 px-6 py-[12px] border-gray-700">
                 </div>
-                <div class="basis-1/3">
+                <div class="basis-1/3 mt-3 md:mt-0">
                   <div class="cf-button-noGroup bg-white">Subcribe</div>
                 </div>
               </div>
@@ -453,7 +458,53 @@
         </div>
         <!--End subscribe-->
 
-        <footer>footer</footer>
+        <footer>
+          <div class="w-[95%] lg:w-[65%] mx-auto flex justify-center items-start my-[100px] gap-8">
+            <div class="intro basis-2/6 flex flex-col gap-4 text-start">
+              <div class="logo text-start mb-4">CoffeStyle.</div>
+              <div class="whitespace-normal text-gray-500 text-sm font-normal">
+                Delivering the best coffee life since 1996. 
+                <br>From coffee geeks to the real ones.
+              </div>
+              <div class="text-gray-400 text-sm">CoffeeStyle Inc. © 1996</div>
+            </div>
+
+            <div class="menu basis-1/6 flex flex-col gap-3">
+              <div class="name-item-footer mb-4">Menu</div>
+              <div class="">
+                <ul class="">
+                  <li class="item-footer">Home</li>
+                  <li class="item-footer">Our products</li>
+                  <li class="item-footer">About</li>
+                  <li class="item-footer">Contact</li>
+                  <li class="item-footer">Styleguide</li>
+                </ul>
+              </div>   
+            </div>
+
+            <div class="follow basis-1/6 flex flex-col gap-3">
+              <div class="name-item-footer mb-4">Follow us</div>
+              <div class="">
+                <ul class="">
+                  <li class="item-footer">Facebook</li>
+                  <li class="item-footer">Instagram</li>
+                  <li class="item-footer">Pinterest</li>
+                  <li class="item-footer">Twitter</li>
+                </ul>
+              </div>   
+            </div>
+            <div class="contact basis-1/6 flex flex-col gap-3">
+              <div class="name-item-footer mb-4">Contact us</div>
+              <div class="">
+                <ul class="">
+                  <li class="item-footer">We’re Always Happy to Help</li>
+                  <li class="mb-[10px] text-2xl">us@coffeestyle.io</li>
+                  <li class="text-sm text-gray-300 hover:text-coffee-400 cursor-pointer">Powered by MinhThieu</li>
+                </ul>
+              </div>   
+            </div>
+          </div>
+        </footer>
       </div>
     <!--End root-->
   </body>
